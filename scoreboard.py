@@ -4,6 +4,7 @@ COLOUR = 'black'
 ALIGN = "center"
 
 class Scoreboard(Turtle):
+    # handle scoreboard
     def __init__(self):
         super().__init__()
         self.hideturtle()

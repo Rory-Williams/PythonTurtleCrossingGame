@@ -6,6 +6,7 @@ MOVE_INCREMENT = 10
 
 
 class CarManager():
+    # create cars with random color and movement
     def __init__(self):
         self.cars = []
         self.move_dist = STARTING_MOVE_DISTANCE
